@@ -1,0 +1,130 @@
+PODS:
+  - AFDateHelper (4.3.0)
+  - Alamofire (5.5.0)
+  - AssetChecker (0.2.1)
+  - DropDown (2.3.13)
+  - DynamicBlurView (4.1.0)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - netfox (1.20.0)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - NVActivityIndicatorView/Extended (5.1.1):
+    - NVActivityIndicatorView/Base
+  - PanModal (1.2.7)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
+  - PromiseKit (6.15.3):
+    - PromiseKit/CorePromise (= 6.15.3)
+    - PromiseKit/Foundation (= 6.15.3)
+    - PromiseKit/UIKit (= 6.15.3)
+  - PromiseKit/CorePromise (6.15.3)
+  - PromiseKit/Foundation (6.15.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.15.3):
+    - PromiseKit/CorePromise
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SteviaLayout (4.7.3)
+  - SVPullToRefresh (0.4.1)
+  - SwiftGen (6.5.1)
+  - SwiftLint (0.45.1)
+  - SwiftyJSON (5.0.1)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - AFDateHelper
+  - Alamofire
+  - AssetChecker (from `https://github.com/freshOS/AssetChecker.git`)
+  - DropDown (from `https://github.com/linhVmodev/DropDown.git`, branch `master`)
+  - Moya
+  - netfox
+  - NVActivityIndicatorView/Extended (from `https://github.com/linhVmodev/NVActivityIndicatorView.git`, branch `master`)
+  - PanModal
+  - PopupDialog (from `https://github.com/linhVmodev/PopupDialog.git`, branch `master`)
+  - PromiseKit
+  - RxCocoa
+  - RxSwift
+  - SteviaLayout
+  - SVPullToRefresh
+  - SwiftGen
+  - SwiftLint
+  - SwiftyJSON
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - AFDateHelper
+    - Alamofire
+    - DynamicBlurView
+    - Moya
+    - netfox
+    - PanModal
+    - PromiseKit
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SteviaLayout
+    - SVPullToRefresh
+    - SwiftGen
+    - SwiftLint
+    - SwiftyJSON
+    - Toast-Swift
+
+EXTERNAL SOURCES:
+  AssetChecker:
+    :git: https://github.com/freshOS/AssetChecker.git
+  DropDown:
+    :branch: master
+    :git: https://github.com/linhVmodev/DropDown.git
+  NVActivityIndicatorView:
+    :branch: master
+    :git: https://github.com/linhVmodev/NVActivityIndicatorView.git
+  PopupDialog:
+    :branch: master
+    :git: https://github.com/linhVmodev/PopupDialog.git
+
+CHECKOUT OPTIONS:
+  AssetChecker:
+    :commit: e71a8ff57ec17e26adb59189d21395036476b420
+    :git: https://github.com/freshOS/AssetChecker.git
+  DropDown:
+    :commit: d882816496bc60fcbedc8ba2ca13c70e135bedd4
+    :git: https://github.com/linhVmodev/DropDown.git
+  NVActivityIndicatorView:
+    :commit: c721d4f1d5746e376a341c3616e19067179a131c
+    :git: https://github.com/linhVmodev/NVActivityIndicatorView.git
+  PopupDialog:
+    :commit: d1567a288272e8f9c9694dcdd0c0d5c71dc320c1
+    :git: https://github.com/linhVmodev/PopupDialog.git
+
+SPEC CHECKSUMS:
+  AFDateHelper: b769c07d3d4784ee9a74633285304261bb27dc52
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  AssetChecker: 00fb40412d840ce2d3894e35a0030b36d52f2241
+  DropDown: bf260fd688978138019ad7d94f63a2362dad85ba
+  DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  netfox: 6b5c9724304b0cd99ca8515ac732a9f710e4ea5f
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
+  PromiseKit: 3b2b6995e51a954c46dbc550ce3da44fbfb563c5
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  SwiftGen: a6d22010845f08fe18fbdf3a07a8e380fd22e0ea
+  SwiftLint: 06ac37e4d38c7068e0935bb30cda95f093bec761
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: e252aced72c48cff23af15929b57c622e4da68de
+
+COCOAPODS: 1.11.2
